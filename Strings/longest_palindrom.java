@@ -23,6 +23,7 @@ public class longest_palindrom {
                 right++;
             }
             //even length
+            left = i;
             right=i+1;
             while(left>=0 && right<s.length() && s.charAt(left)==s.charAt(right)){
                 if(right-left+1>longest){
