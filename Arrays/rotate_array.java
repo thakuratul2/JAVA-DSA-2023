@@ -22,8 +22,8 @@ public class rotate_array {
         rotate(nums,rotation,size-1);
     }
     
-   private void rotate(int[] arr,int low,int high){
-        int temp = arr[low];
+   private static void rotate(int[] nums,int low,int high){
+        int temp = nums[low];
         nums[low] = nums[high];
         nums[high] = temp;
 
