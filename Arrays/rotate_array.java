@@ -20,7 +20,9 @@ public class rotate_array {
         rotate(nums,0,size-1);
         rotate(nums,0,rotation-1);
         rotate(nums,rotation,size-1);
+        sc.close();
     }
+    
     
    private static void rotate(int[] nums,int low,int high){
         int temp = nums[low];
@@ -31,5 +33,5 @@ public class rotate_array {
         high--;
         
     }
-    sc.close();
+    
 }
