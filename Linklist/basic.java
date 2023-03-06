@@ -1,5 +1,6 @@
 public class basic {
     Node head;
+    private int size;
 
     class Node {
         int data;
@@ -8,6 +9,7 @@ public class basic {
         Node(int data) {
             this.data = data;
             this.next = null;
+            size++;
         }
     }
     // add in first
@@ -57,6 +59,7 @@ public class basic {
             return;
         }
 
+        size--;
         if(head.next==null){
             head = null;
             return;
@@ -77,9 +80,14 @@ public class basic {
             System.out.println("List is empty");
             return;
         }
+        size--;
         head = head.next;
     }
 
+    //return size
+    public int getSize(){
+        return size;
+    }
     public static void main(String[] args) {
         basic new_data = new basic();
         new_data.addFirst(15);
@@ -87,10 +95,14 @@ public class basic {
         
         new_data.addLast(18);
         new_data.printNode();
+        System.out.println(new_data.getSize());
 
         new_data.deleteLast();
         new_data.printNode();
+        System.out.println(new_data.getSize());
         new_data.deleteFirst();
         new_data.printNode();
+
+        System.out.println(new_data.getSize());
     }
 }
