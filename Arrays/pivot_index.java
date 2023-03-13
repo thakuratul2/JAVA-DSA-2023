@@ -15,7 +15,6 @@ public class pivot_index {
             nums[x] = sc.nextInt();
         }
         for(int i =0;i<size;i++){
-
             //sum all the value
             sum = sum +nums[i];
         }
