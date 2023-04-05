@@ -6,7 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution4 {
     class ListNode{
         int val;
         ListNode next;

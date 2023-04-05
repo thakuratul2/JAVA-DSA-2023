@@ -8,7 +8,7 @@
  * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class Solution5 {
     class ListNode {
         int val;
         ListNode next;
