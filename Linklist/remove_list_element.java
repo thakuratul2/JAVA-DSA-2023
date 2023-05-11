@@ -11,14 +11,14 @@ class ListNode{
             if(head.val == val && dumy == head){
                 head = head.next;
                 dumy = head;
-                continue;
+                continue;//skip the current value if found
             }
             if(dumy.next == null){
                 break;
             }
             if(dumy.next.val == val){
                 dumy.next = dumy.next.next;
-                continue;
+                continue;// if the 2 node is val then skip again
             }
             dumy = dumy.next;
         }
