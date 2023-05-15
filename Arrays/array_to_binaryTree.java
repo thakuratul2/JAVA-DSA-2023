@@ -10,6 +10,7 @@ public class array_to_binaryTree<TreeNode> {
 
     TreeNode head = helper(nums, 0, nums.length - 1);
     return head;
+    
 }
 
 public TreeNode helper(int[] nums, int low, int high) {
