@@ -5,6 +5,7 @@ public class array_to_binaryTree<TreeNode> {
   }
     public TreeNode sortedArrayToBST(int[] nums) {
           if (nums.length == 0) {
+            
         return null;
     }
 
