@@ -9,7 +9,7 @@
  *     }
  * }
  */
-class Solution {
+class Solution8 {
     class ListNode {
         int val;
         ListNode next;
