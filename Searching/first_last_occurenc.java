@@ -58,6 +58,7 @@ public class first_last_occurenc {
         int target = sc.nextInt();
 
         int arr[] = new int[2];
+        sc.close();
 
         arr[0] = firstSide(arr, target);
         arr[1] = lastSide(arr, target);
