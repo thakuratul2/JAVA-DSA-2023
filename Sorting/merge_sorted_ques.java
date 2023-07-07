@@ -17,6 +17,7 @@ public class merge_sorted_ques {
                 i--; // if nums2 array element over
             }else{
                 nums1[k] = nums2[j];
+                
                 k--;
                 j--;
             }
