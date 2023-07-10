@@ -59,6 +59,7 @@ public class quick_sort {
         for(int j = 0;j<size;j++){
             System.out.println(arr[j]+"");
         }
+        
         System.out.println();
         sc.close();
     }
